@@ -30,9 +30,7 @@ const router=createBrowserRouter([{
 		element: <Editor/>
 		},
 	]
-}], {
-basename: process.env.PUBLIC_URL
-});
+}]);
 
 const root=ReactDOM.createRoot(document.getElementById("root"));
 root.render(
